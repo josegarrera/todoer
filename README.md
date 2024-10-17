@@ -1,7 +1,7 @@
 # Pipeline Dashboard
 
-| Componente         | Commit Stage         |
-| ------------------ | -------------------- |
-| **Frontend**        | [![Build Status](https://github.com/josegarrera/todoer-fe/actions/workflows/ci.yml/badge.svg)](https://github.com/josegarrera/todoer-fe/actions/workflows/ci.yml) |
-| **Todo-Service**    | [![Build Status](https://github.com/josegarrera/todoer-be1/actions/workflows/ci.yml/badge.svg)](https://github.com/josegarrera/todoer-be1/actions/workflows/ci.yml) |
-| **Title Generator Service**| [![Build Status](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci.yml) |
+| Component          | Commit Stage         |  UAT Stage            |
+| ------------------ | -------------------- |-----------------------|
+| **Frontend**        | [![Frontend CI](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-commit.yml/badge.svg)](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-commit.yml) | [![Frontend Release](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-release.yml/badge.svg)](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-release.yml) |
+| **Task-Manager**    | [![Task Manager CI](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-commit.yml/badge.svg)](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-commit.yml) | [![Task Manager Release](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-release.yml/badge.svg)](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-release.yml) |
+| **Title Generator**| [![Title Generator CI](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-commit.yml/badge.svg)](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-commit.yml) | [![Title Generator Release](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-release.yml/badge.svg)](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-release.yml) |
