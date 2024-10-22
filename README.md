@@ -1,7 +1,15 @@
 # Pipeline Dashboard
 
+## Component Stages
+
 | Component          | Commit Stage         |  UAT Stage            |
 | ------------------ | -------------------- |-----------------------|
-| **Frontend**        | [![Frontend CI](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-commit.yml/badge.svg)](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-commit.yml) | [![Frontend Release](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-release.yml/badge.svg)](https://github.com/josegarrera/todoer-fe/actions/workflows/ci-release.yml) |
-| **Task-Manager**    | [![Task Manager CI](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-commit.yml/badge.svg)](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-commit.yml) | [![Task Manager Release](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-release.yml/badge.svg)](https://github.com/josegarrera/todoer-task-manager/actions/workflows/ci-release.yml) |
-| **Title Generator**| [![Title Generator CI](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-commit.yml/badge.svg)](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-commit.yml) | [![Title Generator Release](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-release.yml/badge.svg)](https://github.com/josegarrera/todoer-title-generator/actions/workflows/ci-release.yml) |
+| **Frontend**        | [![Commit](https://github.com/josegarrera/todoer-fe/actions/workflows/commit.yml/badge.svg)](https://github.com/josegarrera/todoer-fe/actions/workflows/commit.yml) | [![Release](https://github.com/josegarrera/todoer-fe/actions/workflows/release.yml/badge.svg)](https://github.com/josegarrera/todoer-fe/actions/workflows/release.yml) |
+| **Task Manager**    | [![Commit](https://github.com/josegarrera/todoer-task-manager/actions/workflows/commit.yml/badge.svg)](https://github.com/josegarrera/todoer-task-manager/actions/workflows/commit.yml) | [![Release](https://github.com/josegarrera/todoer-task-manager/actions/workflows/release.yml/badge.svg)](https://github.com/josegarrera/todoer-task-manager/actions/workflows/release.yml) |
+| **Title Generator**| [![Commit](https://github.com/josegarrera/todoer-title-generator/actions/workflows/commit.yml/badge.svg)](https://github.com/josegarrera/todoer-title-generator/actions/workflows/commit.yml) | [![Release](https://github.com/josegarrera/todoer-title-generator/actions/workflows/release.yml/badge.svg)](https://github.com/josegarrera/todoer-title-generator/actions/workflows/release.yml) |
+
+## System Stages
+
+|                    | UAT Stage            |  Production Stage (pending)  |
+| ------------------ | -------------------- |-----------------------|
+| **System**         | [![UAT Stage](https://github.com/josegarrera/todoer-acceptance/actions/workflows/uat-stage.yml/badge.svg)](https://github.com/josegarrera/todoer-acceptance/actions/workflows/uat-stage.yml) |  |
