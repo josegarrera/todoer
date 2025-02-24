@@ -146,3 +146,6 @@ This project follows a multi-repository strategy where each component is maintai
 - [Task Manager](https://github.com/josegarrera/todoer-task-manager)
 - [Title Generator](https://github.com/josegarrera/todoer-title-generator)
 - [System Tests](https://github.com/josegarrera/todoer-system-tests)
+
+## Branching Strategy
+This project follows a feature branching strategy where each feature is developed in its own branch and merged into `main` via a pull request.
