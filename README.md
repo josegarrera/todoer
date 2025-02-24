@@ -111,6 +111,20 @@ The system consists of three main components:
 
 Each component is independently deployable and communicates via RESTful APIs.
 
+## Tech-Stack
+
+### Frontend
+- **Framework**: React with TypeScript
+- **Styling**: Vanilla CSS
+
+### Task Manager
+- **Framework**: Node.js with Express and TypeScript
+- **Database**: MongoDB
+
+### Title Generator
+- **Framework**: Node.js with Express and TypeScript
+
+
 ## Component Stages
 
 | Component          | Commit Stage         |  UAT Stage            |  Production Stage     |
@@ -125,7 +139,8 @@ Each component is independently deployable and communicates via RESTful APIs.
 | ------------------ | -------------------- |-----------------------|
 | **System**         | [![UAT Stage](https://github.com/josegarrera/todoer-acceptance/actions/workflows/uat-stage.yml/badge.svg)](https://github.com/josegarrera/todoer-acceptance/actions/workflows/uat-stage.yml) | [![UAT Stage](https://github.com/josegarrera/todoer-acceptance/actions/workflows/uat-stage.yml/badge.svg)](https://github.com/josegarrera/todoer-acceptance/actions/workflows/uat-stage.yml) |
 
-## Repositories
+## Repository Strategy
+This project follows a multi-repository strategy where each component is maintained in its own repository:
 
 - [Frontend](https://github.com/josegarrera/todoer-fe)
 - [Task Manager](https://github.com/josegarrera/todoer-task-manager)
