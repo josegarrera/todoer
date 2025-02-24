@@ -149,3 +149,7 @@ This project follows a multi-repository strategy where each component is maintai
 
 ## Branching Strategy
 This project follows a feature branching strategy where each feature is developed in its own branch and merged into `main` via a pull request.
+
+## Deployment Model
+This project follows a continuous deployment model where each component is automatically deployed to the respective environment upon a successful commit.
+GCP cloud provider is used for deployment.
