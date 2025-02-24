@@ -87,6 +87,29 @@ Feature: Generate a Title
     Then I should see a title
 ```
 
+## Architecture
+
+```mermaid
+graph TD
+    User((User)) --> |Interacts with| FE[Frontend]
+    FE --> |Create/Update/Delete Tasks| TM[Task Manager]
+    FE --> |Generate Titles| TG[Title Generator]
+    TM --> |Store Tasks| DB[(Database)]
+
+    style User fill:#ff69b4,stroke:#fff,stroke-width:4px
+    style FE fill:#4169e1,stroke:#fff,stroke-width:2px
+    style TM fill:#32cd32,stroke:#fff,stroke-width:2px,color:#000
+    style TG fill:#da70d6,stroke:#fff,stroke-width:2px,color:#000
+    style DB fill:#dcdcdc,stroke:#fff,stroke-width:2px,color:#000
+```
+
+The system consists of three main components:
+
+1. **Frontend**: User interface for task management
+2. **Task Manager**: Handles CRUD operations for tasks
+3. **Title Generator**: Generates random titles for tasks
+
+Each component is independently deployable and communicates via RESTful APIs.
 
 ## Component Stages
 
